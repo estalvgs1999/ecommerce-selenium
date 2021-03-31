@@ -45,5 +45,6 @@ class HomePageTests(unittest.TestCase):
     def tearDown(cls) -> None:
         cls.driver.quit()
 
+
 if __name__ == '__main__':
     unittest.main(verbosity = 2)
